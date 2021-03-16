@@ -18,3 +18,8 @@ $(".close_menu").on("click", function() {
 $(".footer_nav_title").on("click", function() {
     $(this).next("ul").slideToggle(200);
 });
+
+$(".credit_item_box_wrap .call_details").on("click", function() {
+    $(".credit_item_box_wrap .call_details").not(this).parent().siblings(".hide_details").slideUp(200);
+    $(this).parent().siblings(".hide_details").slideToggle(200);
+});

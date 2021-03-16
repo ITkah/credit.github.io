@@ -10,7 +10,11 @@
     .main_section_wrap {
         display: grid;
         grid-template-columns: 700px 1fr;
-        grid-gap: 40px;
+        grid-gap: 30px;
+        padding-left: 40px;
+        @media (max-width: 1280px) {
+            padding: 0;
+        }
     }
     .main_title {
         color: #fff;
@@ -35,6 +39,10 @@
     grid-template-columns: 1fr 315px;
     grid-gap: 15px;
     align-items: start;
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
     @media (max-width: 990px) {
         grid-template-columns: 1fr;
         margin-bottom: 85px;

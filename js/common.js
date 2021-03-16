@@ -23,3 +23,13 @@ $(".credit_item_box_wrap .call_details").on("click", function() {
     $(".credit_item_box_wrap .call_details").not(this).parent().siblings(".hide_details").slideUp(200);
     $(this).parent().siblings(".hide_details").slideToggle(200);
 });
+
+
+
+$('.accordeon .acc-head').on('click', f_acc);
+
+function f_acc() {
+    $('.accordeon .acc-body').not($(this).next()).slideUp(200).siblings(".acc-head").removeClass("acc_box_active");
+    $(this).toggleClass("acc_box_active");
+    $(this).next().slideToggle(200);
+}

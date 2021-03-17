@@ -31,7 +31,6 @@ header {
     margin-right: 20px; }
     @media (max-width: 990px) {
       .header_wrap .header_logo {
-        display: block;
         margin: 0 auto; } }
     @media (max-width: 990px) {
       .header_wrap .header_logo img {
@@ -563,7 +562,7 @@ header {
   border-radius: 2px; }
   @media (max-width: 990px) {
     .credit_item_box {
-      padding: 15px 10px; } }
+      padding: 15px; } }
   .credit_item_box .credit_item_box_wrap {
     display: grid;
     grid-template-columns: 165px 1fr 300px;

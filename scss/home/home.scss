@@ -20,6 +20,9 @@
         color: #fff;
         margin-bottom: 30px;
         font: 400 2.65rem/46px 'Roboto', sans-serif;
+        span {
+            font-weight: 500;
+        }
     }
     .main_text {
         font: 400 1rem/24px 'Roboto', sans-serif;
@@ -117,7 +120,7 @@
                 left: 10px;
                 top: 3px;
                 color: #7C7E82;
-                font: 400 .7rem 'Roboto', sans-serif;
+                font: 400 .75rem 'Roboto', sans-serif;
             }
             input {
                 width: 100%;
@@ -242,7 +245,7 @@
         text-align: center;
         margin-bottom: 40px;
         color: #333333;
-        font: 500 1.875rem 'Roboto', sans-serif;
+        font: 400 1.875rem 'Roboto', sans-serif;
         @media (max-width: 990px) {
             font: 400 1.2rem 'Roboto', sans-serif;
             margin-bottom: 15px;

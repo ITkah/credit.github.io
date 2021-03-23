@@ -222,6 +222,8 @@ header {
     color: #fff;
     margin-bottom: 30px;
     font: 400 2.65rem/46px 'Roboto', sans-serif; }
+    .main_section .main_title span {
+      font-weight: 500; }
   .main_section .main_text {
     font: 400 1rem/24px 'Roboto', sans-serif;
     color: #fff; }
@@ -325,7 +327,7 @@ header {
         left: 10px;
         top: 3px;
         color: #7C7E82;
-        font: 400 .7rem 'Roboto', sans-serif; }
+        font: 400 .75rem 'Roboto', sans-serif; }
       .info_feedback_wrap .form_feedback .input_box input {
         width: 100%;
         background: #FFF;
@@ -450,7 +452,7 @@ header {
     text-align: center;
     margin-bottom: 40px;
     color: #333333;
-    font: 500 1.875rem 'Roboto', sans-serif; }
+    font: 400 1.875rem 'Roboto', sans-serif; }
     @media (max-width: 990px) {
       .info_video_wrap .video_title {
         font: 400 1.2rem 'Roboto', sans-serif;
@@ -1114,7 +1116,7 @@ header {
 
 .credit {
   overflow: hidden;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 25px; }
   @media (max-width: 990px) {
     .credit {
@@ -1128,8 +1130,9 @@ header {
 
 .credit_page {
   background: #FFF;
-  padding: 25px 15px;
-  overflow: hidden; }
+  padding: 30px 35px;
+  overflow: hidden;
+  border: 1px solid #dde1e4; }
   @media (max-width: 990px) {
     .credit_page {
       padding: 15px; } }
@@ -1240,7 +1243,7 @@ header {
     .credit_page_bio .credit_page_info .credit_name {
       color: #333333;
       margin-right: 10px;
-      font: 500 1.35rem 'Roboto', sans-serif; }
+      font: 600 1.4rem 'Roboto', sans-serif; }
       @media (max-width: 576px) {
         .credit_page_bio .credit_page_info .credit_name {
           margin-right: 0;
@@ -1257,9 +1260,9 @@ header {
               align-items: center; }
       .credit_page_bio .credit_page_info .rating_result .star_all {
         margin-left: 5px;
-        font: 400 .75rem 'Roboto', sans-serif;
+        font: 400 .87rem 'Roboto', sans-serif;
         position: relative;
-        top: 3px; }
+        top: 2px; }
     .credit_page_bio .credit_page_info .rating_result span {
       padding: 0;
       font-size: 20px;
@@ -1296,12 +1299,14 @@ header {
     .credit_page_bio .credit_page_info .rating_result > span.active {
       color: #FFA726; }
     .credit_page_bio .credit_page_info .credit_link {
-      font: 400 .75rem 'Roboto', sans-serif;
+      font: 400 .87rem 'Roboto', sans-serif;
       color: #545CA4;
       position: relative;
       top: 3px; }
       .credit_page_bio .credit_page_info .credit_link img {
-        margin-right: 3px; }
+        margin-right: 3px;
+        position: relative;
+        top: 1px; }
   .credit_page_bio .last_credit {
     color: #7c7e82;
     font: 400 .87rem 'Roboto', sans-serif; }
@@ -1362,7 +1367,7 @@ header {
     text-transform: uppercase;
     color: #333;
     padding: 0 0 10px 0;
-    font: 500 .95rem 'Roboto', sans-serif;
+    font: 600 .95rem 'Roboto', sans-serif;
     border-bottom: 2px solid transparent;
     -webkit-transition: .1s;
     -o-transition: .1s;
@@ -1429,11 +1434,11 @@ header {
     position: absolute;
     bottom: -1px; }
   .credit_about_wrap .credit_about_title {
-    font: 500 1.5rem 'Roboto', sans-serif;
+    font: 600 1.5rem 'Roboto', sans-serif;
     margin-bottom: 10px; }
     @media (max-width: 990px) {
       .credit_about_wrap .credit_about_title {
-        font: 500 1.35rem 'Roboto', sans-serif; } }
+        font: 600 1.35rem 'Roboto', sans-serif; } }
   .credit_about_wrap .credit_about_text {
     font: 400 .87rem/19px 'Roboto', sans-serif;
     margin-bottom: 15px; }
@@ -1516,11 +1521,11 @@ header {
     position: absolute;
     bottom: -1px; }
   .credit_arrange_wrap .credit_arrange_title {
-    font: 500 1.5rem 'Roboto', sans-serif;
+    font: 600 1.5rem 'Roboto', sans-serif;
     margin-bottom: 15px; }
     @media (max-width: 990px) {
       .credit_arrange_wrap .credit_arrange_title {
-        font: 500 1.35rem 'Roboto', sans-serif; } }
+        font: 600 1.35rem 'Roboto', sans-serif; } }
   .credit_arrange_wrap .credit_arrange_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1549,7 +1554,7 @@ header {
           display: none; } }
     .credit_arrange_wrap .credit_arrange_container .credit_arrange_sm {
       margin-bottom: 10px;
-      font: 500 1.125rem 'Roboto', sans-serif; }
+      font: 600 1.125rem 'Roboto', sans-serif; }
       @media (max-width: 990px) {
         .credit_arrange_wrap .credit_arrange_container .credit_arrange_sm {
           margin-bottom: 8px; } }
@@ -1593,11 +1598,11 @@ header {
     position: absolute;
     bottom: -1px; }
   .credit_contact_wrap .credit_contact_title {
-    font: 500 1.5rem 'Roboto', sans-serif;
+    font: 600 1.5rem 'Roboto', sans-serif;
     margin-bottom: 15px; }
     @media (max-width: 990px) {
       .credit_contact_wrap .credit_contact_title {
-        font: 500 1.35rem 'Roboto', sans-serif; } }
+        font: 600 1.35rem 'Roboto', sans-serif; } }
   .credit_contact_wrap .credit_contact_box {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -1666,11 +1671,11 @@ header {
     position: absolute;
     bottom: -1px; }
   .credit_acc_wrap .credit_acc_title {
-    font: 500 1.5rem 'Roboto', sans-serif;
+    font: 600 1.5rem 'Roboto', sans-serif;
     margin-bottom: 15px; }
     @media (max-width: 990px) {
       .credit_acc_wrap .credit_acc_title {
-        font: 500 1.35rem 'Roboto', sans-serif; } }
+        font: 600 1.35rem 'Roboto', sans-serif; } }
   .credit_acc_wrap .accordeon {
     display: grid;
     grid-template-columns: 1fr;
@@ -1705,7 +1710,7 @@ header {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    font: 400 1rem 'Roboto', sans-serif; }
+    font: 400 1.125rem 'Roboto', sans-serif; }
     .credit_acc_wrap .acc-head img {
       -webkit-transition: .2s;
       -o-transition: .2s;
@@ -1721,7 +1726,7 @@ header {
 
 .credit_info_bottom {
   background: #FFF;
-  padding: 25px 15px; }
+  padding: 25px 35px; }
   @media (max-width: 990px) {
     .credit_info_bottom {
       padding: 15px; } }
@@ -2272,7 +2277,7 @@ body {
   background: #E5E5E5; }
 
 .container {
-  max-width: 1300px;
+  max-width: 1280px;
   margin: 0 auto; }
 
 h1,

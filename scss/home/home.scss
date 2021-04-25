@@ -1,8 +1,10 @@
 .main_section {
     background: #2E6AAB;
     margin-bottom: 15px;
+    min-height: 440px;
     @media (max-width: 990px) {
         display: none;
+        min-height: auto;
     }
     .container {
         padding: 40px 0;
@@ -71,6 +73,10 @@
 
 .info_feedback_wrap {
     background: #fff;
+    border: 4px dashed #ed9c28;
+    border-image-source: url(../img/home/bg3.png);
+    border-image-repeat: repeat;
+    border-image-slice: 4;
     padding: 25px 15px;
     @media (max-width: 990px) {
         padding: 15px;
@@ -78,9 +84,9 @@
     .feedback_title {
         text-align: center;
         margin-bottom: 10px;
-        font: 400 1.3rem 'Roboto', sans-serif;
+        font: 500 1.3rem 'Roboto', sans-serif;
         @media (max-width: 990px) {
-            font: 400 1.125rem 'Roboto', sans-serif;
+            font: 500 1.125rem 'Roboto', sans-serif;
         }
         @media (max-width: 576px) {
             text-align: left;
@@ -161,9 +167,9 @@
     .conditions_title {
         text-align: center;
         margin-bottom: 40px;
-        font: 400 1.875rem 'Roboto', sans-serif;
+        font: 500 1.875rem 'Roboto', sans-serif;
         @media (max-width: 990px) {
-            font: 400 1.2rem 'Roboto', sans-serif;
+            font: 500 1.2rem 'Roboto', sans-serif;
             margin-bottom: 25px;
         }
     }
@@ -188,9 +194,9 @@
             }
             p {
                 color: #333333;
-                font: 400 1.125rem 'Roboto', sans-serif;
+                font: 500 1.125rem 'Roboto', sans-serif;
                 @media (max-width: 990px) {
-                    font: 400 1rem 'Roboto', sans-serif;
+                    font: 500 1rem 'Roboto', sans-serif;
                 }
             }
         }
@@ -245,9 +251,9 @@
         text-align: center;
         margin-bottom: 40px;
         color: #333333;
-        font: 400 1.875rem 'Roboto', sans-serif;
+        font: 500 1.875rem 'Roboto', sans-serif;
         @media (max-width: 990px) {
-            font: 400 1.2rem 'Roboto', sans-serif;
+            font: 500 1.2rem 'Roboto', sans-serif;
             margin-bottom: 15px;
             text-align: left;
         }
@@ -300,6 +306,7 @@
     padding: 15px 20px;
     background: #FFF;
     border: 1px solid #DDE1E4;
+    overflow: hidden;
     @media (max-width: 990px) {
         padding: 15px;
     }
@@ -308,12 +315,23 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 30px;
+        position: relative;
+        &::before {
+            content: '';
+            height: 1px;
+            width: 150%;
+            position: absolute;
+            bottom: -15px;
+            background: #dde1e4;
+            display: block;
+            left: -50%;
+        }
         @media (max-width: 990px) {
             margin-bottom: 20px;
         }
         .news_title {
             color: #333333;
-            font: 400 1rem 'Roboto', sans-serif;
+            font: 600 1rem 'Roboto', sans-serif;
         }
         .news_link {
             font: 400 .87rem 'Roboto', sans-serif;

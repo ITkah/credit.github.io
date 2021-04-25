@@ -33,3 +33,15 @@ function f_acc() {
     $(this).toggleClass("acc_box_active");
     $(this).next().slideToggle(200);
 }
+
+$(".call_filter").on("click", function() {
+    $(".catalog_panel_wrap").slideToggle(200);
+});
+
+$(".call_filter").on("click", function() {
+    $(".close_catalog").slideUp(200);
+});
+
+$(".open_drop").on("click", function() {
+    $(this).siblings(".sub-menu").slideToggle(200);
+});

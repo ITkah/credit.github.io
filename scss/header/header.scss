@@ -112,6 +112,25 @@ header {
                 a {
                     font: 500 1rem 'Roboto', sans-serif;
                     color: #333333;
+                    transition: .3;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: -22px;
+                        left: 0;
+                        display: inline-block;
+                        width: 0;
+                        height: 4px;
+                        transition: .3s width ease;
+                        background-color: #f4a236;
+                    }
+                    &:hover {
+                        color: #f4a236;
+                        &::before {
+                            width: 100%;
+                        }
+                    }
                     @media (max-width: 1200px) {
                         font: 500 .9rem 'Roboto', sans-serif;
                     }

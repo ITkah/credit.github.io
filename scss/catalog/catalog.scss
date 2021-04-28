@@ -174,6 +174,30 @@
                         }
                     }
                 }
+                li:nth-last-child(2) {
+                    .sub-menu {
+                        left: -160px!important;
+                        @media (max-width: 990px) {
+                            left: auto!important;
+                        }
+                    }
+                }
+                li:nth-last-child(1) {
+                    .sub-menu {
+                        left: -160px!important;
+                        @media (max-width: 990px) {
+                            left: auto!important;
+                        }
+                    }
+                }
+                li:last-child {
+                    .sub-menu {
+                        left: -160px!important;
+                        @media (max-width: 990px) {
+                            left: auto!important;
+                        }
+                    }
+                }
             }
         }
     }
@@ -204,6 +228,10 @@
                 align-items: center;
                 font: 500 1.5rem 'Roboto', sans-serif;
                 white-space: nowrap;
+                background: #fff;
+                padding: 0 12px 0 0;
+                position: relative;
+                z-index: 9;
                 @media (max-width: 990px) {
                     background: #fff;
                     padding: 0 10px;
@@ -222,14 +250,13 @@
             .catalog_arr {
                 max-width: 100%;
                 height: auto;
-                width: 64%;
+                width: 91%;
                 margin: 0 5px;
+                left: 0;
+                position: absolute;
                 object-fit: contain;
-                @media (max-width: 1280px) {
-                    width: 60%;
-                }
-                @media (max-width: 1100px) {
-                    width: 55%;
+                @media (max-width: 1200px) {
+                    width: 88%;
                 }
                 @media (max-width: 990px) {
                     display: none;
@@ -353,6 +380,10 @@
                     a {
                         font: 400 .8rem 'Roboto', sans-serif;
                         color: #000;
+                        transition: .2s;
+                        &:hover {
+                            color: #616abc;
+                        }
                     }
                 }
             }

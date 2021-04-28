@@ -45,3 +45,18 @@ $(".call_filter").on("click", function() {
 $(".open_drop").on("click", function() {
     $(this).siblings(".sub-menu").slideToggle(200);
 });
+
+
+$(".form_box").on("click", function() {
+    $(this).addClass("form_box_active");
+});
+
+$(".call_form").on("click", function(e) {
+    e.preventDefault();
+    $(this).siblings(".hide_form").slideToggle(200);
+});
+
+$(".close_form").on("click", function(e) {
+    e.preventDefault();
+    $(this).parent().parent().hide();
+});

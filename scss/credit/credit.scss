@@ -195,7 +195,7 @@
         text-transform: uppercase;
         color: #333;
         padding: 0 0 10px 0;
-        font: 600 .95rem 'Roboto', sans-serif;
+        font: 700 .95rem 'Roboto', sans-serif;
         border-bottom: 2px solid transparent;
         transition: .1s;
         position: relative;
@@ -486,7 +486,7 @@
             color: #333333;
         }
     }
-    .credit_contact_box:last-child {
+    .credit_contact_list:last-child {
         .credit_contact_box:last-child {
             margin: 0;
         }
@@ -526,7 +526,7 @@
     .acc_box {
         padding: 15px 20px;
         border: solid 1px #dde1e4;
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .1);
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .06);
         @media (max-width: 990px) {
             padding: 15px;
         }
@@ -551,7 +551,7 @@
     .acc-body {
         display: none;
         margin-top: 10px;
-        font: 400 .87rem 'Roboto', sans-serif;
+        font: 400 .87rem/20px 'Roboto', sans-serif;
         @media (max-width: 990px) {
             margin-top: 5px;
         }
